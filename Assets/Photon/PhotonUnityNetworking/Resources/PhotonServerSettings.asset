@@ -29,19 +29,15 @@ MonoBehaviour:
   EnableSupportLogger: 0
   RunInBackground: 1
   RpcList:
+  - CreateHitEffect
   - DestroySpaceship
   - Fire
-  - RespawnSpaceship
-  - SpwanObject1
-  - SpwanObject2
-  - SpwanObject3
-  - UpdateScore
-  - RPC_GETteam
-  - RPC_SetTeamm
-  - RPC_SetTeam
-  - UpdateObjectToall
-  - TakeDamage
-  - CreateHitEffect
   - RegainHealth
+  - RespawnSpaceship
+  - RPC_GETteam
+  - RPC_SetTeam
+  - TakeDamage
+  - UpdateObjectToall
+  - UpdateScore
   DisableAutoOpenWizard: 1
-  ShowSettings: 0
+  ShowSettings: 1
